@@ -9,7 +9,7 @@
     font-family: "Poppins", sans-serif;
 }
 
- :root {
+:root {
     --bg-color: #080808;
     --second-bg-color: #131313;
     --text-color: white;
@@ -53,7 +53,7 @@ body {
 }
 
 .logo span {
-    text-shadow: 0 025px var(--main-color);
+    text-shadow: 0 0 25px var(--main-color);
 }
 
 .navegador a {
