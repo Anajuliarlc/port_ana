@@ -121,10 +121,18 @@ span {
 
 .inicio-image {
     border-radius: 50%;
+    position: absolute;
+    /* Use "absolute" para que a posição seja em relação ao contêiner pai */
+    top: 50%;
+    /* Ajuste conforme necessário */
+    right: 0;
+    /* Posiciona a imagem no canto direito */
+    transform: translateY(-50%);
+    /* Para centralizar verticalmente */
 }
 
 .inicio-image img {
-    position: relative;
+    height: auto;
     top: 3rem;
     width: 32vw;
     border-radius: 50%;
