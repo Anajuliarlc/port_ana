@@ -123,7 +123,7 @@ span {
     border-radius: 50%;
     position: absolute;
     /* Use "absolute" para que a posição seja em relação ao contêiner pai */
-    top: 50%;
+    top: 40%;
     /* Ajuste conforme necessário */
     right: 0;
     /* Posiciona a imagem no canto direito */
