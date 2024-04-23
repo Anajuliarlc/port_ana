@@ -532,7 +532,7 @@ span {
 }
 
 .footer .social a:hover {
-    transform: scale(1.2)tranlateY(-10px);
+    transform: scale(1.2)translateY(-10px);
     background-color: var(--main-color);
     color: black;
     box-shadow: 0 0 25px var(--main-color);
