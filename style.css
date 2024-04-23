@@ -154,7 +154,6 @@ span {
     align-items: center;
     width: 4.5rem;
     height: 4.5rem;
-    left: 0;
     background: transparent;
     border: 2px solid var(--main-color);
     font-size: 2.5rem;
@@ -172,7 +171,6 @@ span {
 }
 
 .btn {
-    left: 0;
     display: inline-block;
     padding: 1rem 2.8rem;
     background: var(--main-color);
