@@ -161,13 +161,14 @@ span {
     position: relative;
     top: 25rem;
     transform: translateY(-50%);
+    margin-top: 10rem;
 }
 
 .inicio-image img {
     height: auto;
     right: 0;
     top: 3rem;
-    width: 32vw;
+    width: 28vw;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
