@@ -121,7 +121,7 @@ span {
 
 .inicio-image {
     border-radius: 50%;
-    position: absolute;
+    position: relative;
     top: 60%;
     transform: translateY(-50%);
 }
