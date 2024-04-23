@@ -248,15 +248,15 @@ span {
     }
     41%,
     60% {
-        content: "Backend Devoloper"
+        content: "Backend Developer"
     }
     61%,
     80% {
-        content: "Web Devoloper"
+        content: "Web Developer"
     }
     81%,
     100% {
-        content: "Devoloper"
+        content: "Developer"
     }
 }
 
