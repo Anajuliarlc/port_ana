@@ -123,7 +123,7 @@ span {
     border-radius: 50%;
     position: absolute;
     /* Use "absolute" para que a posição seja em relação ao contêiner pai */
-    top: 40%;
+    top: 60%;
     /* Ajuste conforme necessário */
     right: 0;
     /* Posiciona a imagem no canto direito */
@@ -236,7 +236,7 @@ span {
     height: 100%;
     border-left: 3px solid var(--bg-color);
     right: -8px;
-    animation: cursor 0.6s infinite, typing 20s, steps(14) infinite;
+    animation: cursor 0.6s infinite, typing 20s infinite steps(14);
 }
 
 @keyframes cursor {
