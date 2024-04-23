@@ -392,15 +392,15 @@ span {
     line-height: 22px;
 }
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 15px;
 }
 
- ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background-color: var(--main-color);
 }
 
- ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background-color: var(--bg-color);
     width: 50px;
 }
@@ -544,4 +544,19 @@ span {
     line-height: 1.6;
     margin-bottom: 0;
     text-align: center;
+}
+
+.footer ul li a {
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.footer ul li a:hover {
+    border-bottom: 3px solid var(--main-color);
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
 }
