@@ -124,9 +124,10 @@ span {
 }
 
 .inicio-image img {
-    position: relative;
-    top: 3rem;
-    width: 32vw;
+    max-width: 100%;
+    /* Define a largura máxima da imagem como 100% do espaço disponível */
+    height: auto;
+    /* Mantém a proporção da imagem */
     border-radius: 50%;
     box-shadow: 0 025px var(--main-color);
     cursor: pointer;
