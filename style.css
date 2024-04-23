@@ -148,6 +148,11 @@ span {
     max-width: 1000px;
 }
 
+.icons-redes {
+    margin-top: 20px;
+    /* Adiciona um espaço entre o texto e as redes sociais */
+}
+
 .icons-redes a {
     display: inline-flex;
     justify-content: center;
