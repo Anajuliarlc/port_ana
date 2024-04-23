@@ -159,7 +159,7 @@ span {
     max-width: 40%;
     border-radius: 50%;
     position: relative;
-    top: 60%;
+    top: 5rem;
     transform: translateY(-50%);
 }
 
