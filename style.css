@@ -119,11 +119,11 @@ span {
     line-height: 1;
 }
 
-.inicio-img {
+.inicio-image {
     border-radius: 50%;
 }
 
-.inicio-img img {
+.inicio-image img {
     position: relative;
     top: 3rem;
     width: 32vw;
