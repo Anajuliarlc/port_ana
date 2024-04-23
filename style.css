@@ -240,19 +240,19 @@ span {
 @keyframes words {
     0%,
     20% {
-        content: "Frontend Designer";
+        content: "Universitária";
     }
     21%,
     40% {
-        content: "Web Designer"
+        content: "Leitora"
     }
     41%,
     60% {
-        content: "Backend Developer"
+        content: "apaixonada por música"
     }
     61%,
     80% {
-        content: "Web Developer"
+        content: "estudante"
     }
     81%,
     100% {
