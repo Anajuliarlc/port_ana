@@ -384,15 +384,71 @@ span {
     line-height: 22px;
 }
 
-::-webkit-scrollbar {
+ ::-webkit-scrollbar {
     width: 15px;
 }
 
-::-webkit-scrollbar-thumb {
+ ::-webkit-scrollbar-thumb {
     background-color: var(--main-color);
 }
 
-::-webkit-scrollbar-track {
+ ::-webkit-scrollbar-track {
     background-color: var(--bg-color);
     width: 50px;
+}
+
+.tecnologia {
+    background: var(--bg-color);
+    color: black;
+}
+
+.tecnologia h2 {
+    margin-bottom: 5rem;
+    color: white
+}
+
+.tecnologia-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.tecnologia-box {
+    background-color: var(--main-color);
+    height: 300px;
+    border-radius: 3rem;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.tecnologia-box:hover {
+    background: white;
+    color: black;
+    border: 5px solid var(--main-color);
+    transform: scale(1.03);
+}
+
+.tecnologia-box .tecnologia-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: 200px;
+    justify-content: left;
+    align-items: baseline;
+}
+
+.tecnologia-info h4 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 2;
+}
+
+.tecnologia-info p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    max-height: 100px;
+    line-height: 1.7;
+    margin: auto;
 }
