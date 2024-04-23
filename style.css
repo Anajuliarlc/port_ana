@@ -85,7 +85,6 @@ section {
 .inicio {
     display: flex;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
     gap: 15rem;
 }
@@ -93,11 +92,30 @@ section {
 .inicio-conteudo {
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: flex-start;
     text-align: left;
     justify-content: center;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+}
+
+.inicio-conteudo h3 {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 3.5rem;
+}
+
+.inicio-conteudo h1 {
+    font-size: 7rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    line-height: 1;
+}
+
+.inicio-conteudo p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8;
+    max-width: 1000px;
 }
 
 .icons-redes {
@@ -105,7 +123,7 @@ section {
 }
 
 .icons-redes a {
-    display: inline-block;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 4.5rem;
@@ -115,8 +133,7 @@ section {
     font-size: 2.5rem;
     border-radius: 50%;
     color: var(--main-color);
-    margin-right: 1.5rem;
-    /* Ajustando margem entre os ícones */
+    margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease-in-out;
 }
 
@@ -133,19 +150,6 @@ span {
 
 .logo span {
     color: var(--main-color);
-}
-
-.inicio-conteudo h3 {
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    font-size: 3.5rem;
-}
-
-.inicio-conteudo h1 {
-    font-size: 7rem;
-    font-weight: 700;
-    margin-top: 1.5rem;
-    line-height: 1;
 }
 
 .inicio-image {
@@ -168,13 +172,6 @@ span {
 
 .inicio-image img:hover {
     box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color), 0 0 100px var(--main-color);
-}
-
-.inicio-conteudo p {
-    font-size: 1.5rem;
-    font-weight: 500;
-    line-height: 1.8;
-    max-width: 1000px;
 }
 
 .btn {
