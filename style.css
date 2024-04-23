@@ -85,12 +85,13 @@ section {
 .inicio {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 15rem;
     padding-top: 8rem;
 }
 
 .inicio-conteudo {
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -154,6 +155,8 @@ span {
 }
 
 .inicio-image {
+    padding-top: 8rem;
+    max-width: 40%;
     border-radius: 50%;
     position: relative;
     top: 60%;
